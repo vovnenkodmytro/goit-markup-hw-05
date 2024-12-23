@@ -531,6 +531,9 @@ a {
     display: block;
     margin-bottom: 4px;
 }
+.modal-form-container {
+    margin-bottom: 8px;
+}
 .modal-inp-container {
     position: relative;
 }
