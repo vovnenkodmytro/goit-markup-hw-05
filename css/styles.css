@@ -581,6 +581,7 @@ a {
 }
 .checkbox-label-part {
     width: 16px;
+    cursor: pointer;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
@@ -593,7 +594,7 @@ a {
 .checkbox-icon {
 
 }
-input:checked + .checkbox-label-part {
+.checkbox:checked+.checkbox-label .checkbox-label-part {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
